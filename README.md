@@ -20,8 +20,8 @@ pip3 install beautifulsoup4
 
 From the terminal, run:
 
-$ python uglysoup.py 
-  -url "https://www.hello.com" 
-  -filetype "png" 
-  -filename "hellopng" 
-  -location "/Users/you/Desktop"
+$ python uglysoup.py <br/>
+  &nbsp;&nbsp; -url "https://www.hello.com" <br/>
+  &nbsp;&nbsp; -filetype "png" <br/>
+  &nbsp;&nbsp; -filename "hellopng" <br/>
+  &nbsp;&nbsp; -location "/Users/you/Desktop"
