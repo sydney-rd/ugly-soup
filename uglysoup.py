@@ -46,7 +46,6 @@ def create_path(args):
 def main():
     args = arg_parse()
     path = create_path(args)
-
     response = Request(args.url, headers = {'User-Agent': 'Mozilla/5.0'})
     html = urlopen(response).read()
     soup = BeautifulSoup(html, 'html.parser')
