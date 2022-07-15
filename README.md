@@ -1,6 +1,12 @@
 # UglySoup
 
-Enter a URL, pick a filetype, filename, and a location for the files to be stored, and using Beautiful Soup, the filetype will be extracted from the URL and saved to the location chosen
+UglySoup is a script that allows users to download different file types from a website. The user will provide a URL and a filetype and the script will query the HTML of that URL and download any files of the specified file type, if any.
+
+Example: download all pdfs from website
+
+$ python uglysoup.py 
+  -url https://bulletproofscreenwriting.tv/breaking-bad-tv-script-download/ 
+  -filetype pdf
 
 # Requirements
 
@@ -14,14 +20,8 @@ pip3 install beautifulsoup4
 
 From the terminal, run:
 
-$ python uglysoup.py -url -filetype -filename -location 
-
-Example:
-
-$ python uglysoup.py -url https://bulletproofscreenwriting.tv/breaking-bad-tv-script-download/ -filetype pdf -filename breakingbad -location 
-/Users/sydneydavid/Github/UglySoup
-
-Description:
-
-Uses argparse to gather info. Add a URL after -url, a filetype after -filetype (any filetype within an 'a' tag and 'href' i.e. pdf, png, jpg) -filename and -location for files to be downloaded and saved. Location is optional as its default is the directory you are working out of. 
-
+$ python uglysoup.py 
+  -url "https://www.hello.com" 
+  -filetype "png" 
+  -filename "hellopng" 
+  -location "/Users/you/Desktop"
