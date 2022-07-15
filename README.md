@@ -1,6 +1,6 @@
 # UglySoup
 
-Enter a URL, pick a filetype, filename, and a location for the files to be stored, and using BeautifulSoup, the filetype will be extracted from the URL and saved to the location chosen. 
+Enter a URL, pick a filetype, filename, and a location for the files to be stored, and using Beautiful Soup, the filetype will be extracted from the URL and saved to the location chosen. 
 
 # Install Beautiful Soup
 
