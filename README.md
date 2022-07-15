@@ -19,5 +19,6 @@ example:
 $ python uglysoup.py -url https://bulletproofscreenwriting.tv/breaking-bad-tv-script-download/ -filetype pdf -filename breakingbad -location 
 /Users/sydneydavid/Github/UglySoup
 
+Description:
 Uses argparse to gather info. Add a URL after -url, a filetype after -filetype (any filetype within an 'a' tag and 'href' i.e. pdf, png, jpg) -filename and -location for files to be downloaded and saved. Location is optional as its default is the directory you are working out of. 
 
