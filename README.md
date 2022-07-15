@@ -4,8 +4,8 @@ UglySoup is a script that allows users to download different file types from a w
 
 Example: download all pdfs from website
 
-$ python uglysoup.py 
-  -url https://bulletproofscreenwriting.tv/breaking-bad-tv-script-download/ 
+$ python uglysoup.py &nbsp;&nbsp;
+  -url https://bulletproofscreenwriting.tv/breaking-bad-tv-script-download/ &nbsp;&nbsp;
   -filetype pdf
 
 # Requirements
