@@ -14,7 +14,7 @@ From the terminal, run:
 
 $ python uglysoup.py -url -filetype -filename -location 
 
-example:
+Example:
 
 $ python uglysoup.py -url https://bulletproofscreenwriting.tv/breaking-bad-tv-script-download/ -filetype pdf -filename breakingbad -location 
 /Users/sydneydavid/Github/UglySoup
