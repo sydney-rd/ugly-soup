@@ -10,11 +10,11 @@ $ python uglysoup.py <br/>
 
 # Requirements
 
-$ sudo apt-get install python3.6
+&nbsp;&nbsp; $ sudo apt-get install python3.6
 
-python3 get-pip.py
+&nbsp;&nbsp; $ python3 get-pip.py
 
-pip3 install beautifulsoup4
+&nbsp;&nbsp; $ pip3 install beautifulsoup4
 
 # Run 
 
