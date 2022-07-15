@@ -10,7 +10,7 @@ python3 get-pip.py
 
 pip3 install beautifulsoup4
 
-# Run uglysoup.py
+# Run 
 
 From the terminal, run:
 
