@@ -1,4 +1,4 @@
-# UglySoup
+# Ugly Soup
 
 UglySoup is a script that allows users to download different file types from a website. The user will provide a URL and a filetype and the script will query the HTML of that URL and download any files of the specified file type, if any.
 
