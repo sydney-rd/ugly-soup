@@ -1,6 +1,8 @@
 # UglySoup
 
-Enter a URL, pick a filetype, filename, and a location for the files to be stored, and using BeautifulSoup, the filetype will be extracted from the URL and saved to the location chosen. 
+One of my favorite projects, Ugly Soup allows you to seamlessly download files from any URL of your choosing.
+
+Enter a URL, pick a filetype, filename, and a location for the files to be stored, and using BeautifulSoup, the filetype will be extracted from the URL and saved to the location chosen. You can also run -h for help.
 
 # Install BeautifulSoup
 
@@ -12,12 +14,16 @@ pip3 install beautifulsoup4
 
 From the terminal, run:
 
-$ python uglysoup.py -url -filetype -filename -location 
+$ python uglysoup.py -url -filetype -filename -location (optional)
 
-example:
+### example
 
-$ python uglysoup.py -url https://bulletproofscreenwriting.tv/breaking-bad-tv-script-download/ -filetype pdf -filename breakingbad -location 
+$ python uglysoup.py -url https://bulletproofscreenwriting.tv/breaking-bad-tv-script-download/ -filetype pdf -filename breakingbad -location
 /Users/sydneydavid/Github/UglySoup
 
-Uses argparse to gather info. Add a URL after -url, a filetype after -filetype (any filetype within an 'a' tag and 'href' i.e. pdf, png, jpg) -filename and -location for files to be downloaded and saved. Location is optional as its default is the directory you are working out of. 
+Uses argparse to gather info.
 
+- Add a URL after -url
+- Add a filetype after -filetype (any filetype within an 'a' tag and 'href' i.e. pdf, png, jpg)
+- Add any filename
+- Add a -location for files to be downloaded and saved. Location is optional as its default is the directory you are working out of.
