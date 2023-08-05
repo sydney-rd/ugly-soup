@@ -4,15 +4,11 @@ from datetime import datetime
 import argparse
 from urllib.request import Request, urlopen
 
-# creating a file and writing it into a string
-
 
 def download(outdir, filename, link, format):
     file = open(outdir + filename + format, 'wb')
     file.write(urlopen(link).read())
     file.close()
-
-# argparse to gather various info from user
 
 
 def arg_parse():
@@ -24,8 +20,6 @@ def arg_parse():
     args = parser.parse_args()
 
     return args
-
-# creates a path to store downloaded files
 
 
 def create_path(args):
@@ -47,8 +41,6 @@ def create_path(args):
         os.makedirs(path)
 
     return path
-
-# beautiful soup function to parse through html
 
 
 def main():

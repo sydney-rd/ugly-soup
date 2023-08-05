@@ -16,9 +16,9 @@ From the terminal, run:
 
 $ python uglysoup.py -url -filetype -filename -location (optional)
 
-### example
+### Example of what to run:
 
-$ python uglysoup.py -url https://bulletproofscreenwriting.tv/breaking-bad-tv-script-download/ -filetype pdf -filename breakingbad -location
+$ python uglysoup.py -url https://www.scriptslug.com/script/breaking-bad-101-pilot-2008 -filetype pdf -filename breakingbad -location
 /Users/sydneydavid/Github/UglySoup
 
 Uses argparse to gather info.
