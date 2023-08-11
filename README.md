@@ -1,4 +1,4 @@
-# UglySoup
+# Ugly Soup
 
 One of my favorite projects, Ugly Soup allows you to seamlessly download files from any URL of your choosing.
 
